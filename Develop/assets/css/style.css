@@ -43,7 +43,7 @@ body {
 
 a {
     color: #ffffff;
-    text-decoration: none;
+    
 }
 
 p {
@@ -198,3 +198,52 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+@media screen and (max-width: 992px) {
+    .benefits {
+      width:50%;
+    }
+
+    .search-engine-optimization {
+        width:100%;
+        height:120%;
+
+    }
+
+    .online-reputation-management {
+        width: 100%;
+        height:120%;
+    }
+
+    .social-media-marketing {
+        width: 100%;
+        height:120%;
+    }
+  
+   
+  }
+  
+@media screen and (max-width: 768px) {
+    .benefits {
+      width:90%;
+      height:140%;
+      
+    }
+
+    .search-engine-optimization {
+        width: 120%;
+        height:160%;
+
+    }
+
+    .online-reputation-management {
+        width: 120%;
+        height:160%;
+    }
+
+    .social-media-marketing {
+        width: 120%;
+        height:160%;
+    }
+  
+    }
